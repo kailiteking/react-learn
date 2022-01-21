@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.controlls {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controlls input {
+    display: none;
+}
+
+.controlls input:checked +label {
+    background-color: green;
+}
+
+.controlls label {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.controlls p {
+    flex: 8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.controlls button {
+    flex: 2;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color:lightcoral;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+

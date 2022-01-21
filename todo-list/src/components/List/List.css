@@ -1,0 +1,66 @@
+.list {
+    font-size: 18px;
+    list-style: none;
+}
+
+.list li {
+    box-sizing: border-box;
+    padding: 20px 40px;
+    margin-bottom: 18px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px #ddd;
+    border-radius: 4px;
+}
+
+.list li:last-of-type {
+    margin-bottom: 28px;
+}
+
+.list li button {
+    flex: 1;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color:indianred;
+    color: white;
+    opacity: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.list li:hover button {
+    opacity: 1;
+}
+
+.list li label {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    background-color: coral;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.list li input[type='checkbox'] {
+    display: none;
+}
+
+.list li input[type='checkbox']:checked + label{
+    background-color: green;
+}
+
+.list li p {
+    flex: 8;
+}
+
+.list>li.done p {
+    color: darkgray;
+    text-decoration: line-through;
+}

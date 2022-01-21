@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.add {
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add label {
+    flex: 3;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.add input {
+    flex: 6;
+    border: 1px solid darkgray;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.add button {
+    flex: 1;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
