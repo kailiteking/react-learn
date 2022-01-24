@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.meal-list {
+    margin-top: 20px;
+    display: grid;
+    justify-items: stretch;
+    align-items: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.meal-list li {
+    margin-bottom: 10px;
+}
+
+.meal-list li p {
+    text-align: center;
+}
+
+.meal-list img {
+    width: 100%;
+    border-radius: 4px;
+}
